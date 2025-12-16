@@ -1,4 +1,4 @@
-module example.com/hertz
+module github.com/oliverbestmann/120hz-demo
 
 go 1.24.0
 
