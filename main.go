@@ -92,6 +92,8 @@ func (g *Game) mode1(screen *ebiten.Image, toScreen ebiten.GeoM, now time.Durati
 		y = 300
 	}
 
+	time.Sleep(3 * time.Millisecond)
+
 	x, y = toScreen.Apply(x, y)
 
 	var p vector.Path
